@@ -11,6 +11,7 @@ import org.testng.annotations.Test;
 /**
  * Created by Gerrit Elsenaar on 20-7-2017.
  */
+
 public class SignOutTest extends TestShopScenario {
 
 
