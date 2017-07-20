@@ -63,7 +63,7 @@ public class SignOutTest {
     /**
      * Created by Gerrit Elsenaar on 20-7-2017.
      * Bovenste drie methodes werken: 1 initialiseert, 1 voor inloggen, q voor uitloggen
-     * Onderste doet alle 3 in 1
+     * Onderste doet alle 3 in 1     *
      */
     @Test
     public void logAndLogoutTest() {
