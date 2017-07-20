@@ -1,5 +1,6 @@
 package chapterSix;
 
+import general.TestShopScenario;
 import io.github.bonigarcia.wdm.ChromeDriverManager;
 import org.assertj.core.api.Assertions;
 import org.openqa.selenium.By;
@@ -10,16 +11,11 @@ import org.testng.annotations.Test;
 /**
  * Created by Gerrit Elsenaar on 20-7-2017.
  */
-public class SignOutTest {
+public class SignOutTest extends TestShopScenario {
 
-    WebDriver driver;
 
     @Test
     public void logInAndLogoutTest() {
-        ChromeDriverManager.getInstance().setup();
-        driver = new ChromeDriver();
-        driver.get("https://techblog.polteq.com/testshop/index.php");
-        driver.manage().window().maximize();
 
         logInTest();
         logOutTest();
@@ -32,10 +28,6 @@ public class SignOutTest {
         String passWord = "1qazxsw2";
         String textToValidate;
         String textIngelogd = "personal";
-
-
-        driver.get("https://techblog.polteq.com/testshop/index.php");
-        driver.manage().window().maximize();
 
         driver.findElement(By.className("login")).click();
 
@@ -72,11 +64,6 @@ public class SignOutTest {
         String textToValidate;
         String textIngelogd = "personal";
         String textUitgelogd = "Sign in";
-
-        ChromeDriverManager.getInstance().setup();
-        driver = new ChromeDriver();
-        driver.get("https://techblog.polteq.com/testshop/index.php");
-        driver.manage().window().maximize();
 
         driver.findElement(By.className("login")).click();
 
