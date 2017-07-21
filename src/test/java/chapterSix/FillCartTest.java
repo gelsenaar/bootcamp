@@ -1,11 +1,7 @@
 package chapterSix;
 
 import general.TestShopScenario;
-import io.github.bonigarcia.wdm.ChromeDriverManager;
-import org.assertj.core.api.Assertions;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 /**
@@ -14,15 +10,27 @@ import org.testng.annotations.Test;
 public class FillCartTest extends TestShopScenario {
 
     @Test
-    public void fillCart() {
+    public void fillCart() throws InterruptedException {
 
         String cartValueActual;
-        String cartValueExpected = "Cart (empty)";
+        String cartEmpty = "Cart (empty)";
+        String cartFilled = "Cart 1 Product";
 
         cartValueActual = driver.findElement(By.className("shopping_cart")).getText();
         driver.findElement(By.className("shopping_cart")).isDisplayed();
         System.out.println(cartValueActual);
+        driver.findElement(By.cssSelector(".ajax_cart_no_product")).isDisplayed();
 
-        driver.findElement(By.xpath("//a[@class='iPod Nano']")).click();
+        driver.findElement(By.cssSelector("a[title='More about ipod']")).click();
+        driver.findElement(By.xpath("//a[contains(text(),'iPod shuffle')]")).click();
+
+        driver.findElement(By.xpath("//*[@id='add_to_cart']/button")).click();
+
+        Thread.sleep(500);
+
+        driver.findElement(By.cssSelector("span[title='Continue shopping']")).click();
+        cartValueActual = driver.findElement(By.className("shopping_cart")).getText();
+        System.out.println(cartValueActual);
+        driver.findElement(By.cssSelector(".ajax_cart_no_product")).isDisplayed();
       }
 }
