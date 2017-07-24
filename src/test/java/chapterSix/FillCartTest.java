@@ -1,15 +1,15 @@
 package chapterSix;
 
 import general.TestShopScenario;
+import org.assertj.core.api.Assertions;
 import org.openqa.selenium.By;
-import org.testng.annotations.Test;
 
 /**
  * Created by Gerrit Elsenaar on 20-7-2017.
  */
 public class FillCartTest extends TestShopScenario {
 
-    @Test
+//    @Test
     public void fillCart() throws InterruptedException {
 
         String cartValueActual;
@@ -18,8 +18,10 @@ public class FillCartTest extends TestShopScenario {
 
         cartValueActual = driver.findElement(By.className("shopping_cart")).getText();
         driver.findElement(By.className("shopping_cart")).isDisplayed();
-        System.out.println(cartValueActual);
-        driver.findElement(By.cssSelector(".ajax_cart_no_product")).isDisplayed();
+        Assertions.assertThat(driver.findElement(By.cssSelector(".ajax_cart_no_product"))
+                .isDisplayed())
+                .as("Empty cart")
+                .isTrue();
 
         driver.findElement(By.cssSelector("a[title='More about ipod']")).click();
         driver.findElement(By.xpath("//a[contains(text(),'iPod shuffle')]")).click();
@@ -30,7 +32,9 @@ public class FillCartTest extends TestShopScenario {
 
         driver.findElement(By.cssSelector("span[title='Continue shopping']")).click();
         cartValueActual = driver.findElement(By.className("shopping_cart")).getText();
-        System.out.println(cartValueActual);
-        driver.findElement(By.cssSelector(".ajax_cart_no_product")).isDisplayed();
-      }
+        Assertions.assertThat(driver.findElement(By.cssSelector(".ajax_cart_no_product"))
+                .isDisplayed())
+                .as("Filled cart")
+                .isFalse();
+     }
 }
