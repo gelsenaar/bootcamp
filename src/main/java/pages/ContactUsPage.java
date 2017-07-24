@@ -25,7 +25,6 @@ public class ContactUsPage {
 
     public ContactUsPage(WebDriver driver) {
         this.driver = driver;
-
         //This call sets the WebElements
         PageFactory.initElements(driver, this);
     }
