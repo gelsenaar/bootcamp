@@ -6,6 +6,8 @@ import pages.HomePage;
 import pages.LoginPage;
 
 public class LoginTest extends TestShopScenario {
+    private String signInEmail = "gerrit@elsenaar.com";
+    private String signInPassword = "1qazxsw2";
 
     @Test
     public void logIn() {
@@ -13,6 +15,6 @@ public class LoginTest extends TestShopScenario {
         LoginPage loginPage = new LoginPage(driver);
 
         homePage.clickLogIn();
-        loginPage.loginForm("gerrit@elsenaar.com", "1qazxsw2");
+        loginPage.loginForm(signInEmail, signInPassword);
     }
 }
