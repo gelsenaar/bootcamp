@@ -1,5 +1,6 @@
 package pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -30,7 +31,8 @@ public class LoginPage {
         submitButton.click();
     }
 
-    public void loginSuccess() {
+    public String loginSuccess() {
+        return driver.findElement(By.className("page-heading")).getText();
 
     }
 }

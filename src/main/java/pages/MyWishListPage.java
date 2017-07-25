@@ -26,13 +26,13 @@ public class MyWishListPage {
         PageFactory.initElements(driver, this);
     }
 
-    public void addWish(String wishNameAdd) {
-        wishName.sendKeys(wishNameAdd);
+    public void addWish(String wishToAdd) {
+        wishName.sendKeys(wishToAdd);
         saveButton.click();
     }
 
-    public void deleteWish(String wishNameToDelete) {
-        driver.findElement(By.xpath(".//a[contains(text(), '" + wishNameToDelete + "')]" +
+    public void deleteWish(String wishToDelete) {
+        driver.findElement(By.xpath(".//a[contains(text(), '" + wishToDelete + "')]" +
                 "/ancestor::tr/td[@class='wishlist_delete']/a")).click();
         driver.switchTo().alert().accept();
     }

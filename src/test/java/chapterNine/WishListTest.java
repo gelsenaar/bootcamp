@@ -11,6 +11,7 @@ import pages.MyWishListPage;
 public class WishListTest extends TestShopScenario {
     private String signInEmail = "gerrit@elsenaar.com";
     private String signInPassword = "1qazxsw2";
+    private String wishUnderConstruction = "This is my personal wish";
 
     @Test
     public void addToWishList() {
@@ -18,19 +19,18 @@ public class WishListTest extends TestShopScenario {
         LoginPage loginPage = new LoginPage(driver);
         MyAccountPage myAccountPage = new MyAccountPage(driver);
         MyWishListPage myWishListPage = new MyWishListPage(driver);
-        String wishToAdd = "First add a wish";
 
         homePage.clickLogIn();
         loginPage.loginForm(signInEmail, signInPassword);
         myAccountPage.clickMyWishList();
-        if (myWishListPage.checkExistence(wishToAdd)) {  // == true
-            myWishListPage.addWish(wishToAdd);
-            Assertions.assertThat(myWishListPage.checkExistence(wishToAdd))
-                    .as("Wish " + wishToAdd + "should have been added")
+        if (myWishListPage.checkExistence(wishUnderConstruction)) {
+            myWishListPage.addWish(wishUnderConstruction);
+            Assertions.assertThat(myWishListPage.checkExistence(wishUnderConstruction))
+                    .as("The wish '" + wishUnderConstruction + "' should have been added")
                     .isFalse();
         }
         else {
-            System.out.println("Hij bestaat al");
+            System.out.println("The wish '" + wishUnderConstruction + "' is already in the list");
         }
     }
 
@@ -40,19 +40,18 @@ public class WishListTest extends TestShopScenario {
         LoginPage loginPage = new LoginPage(driver);
         MyAccountPage myAccountPage = new MyAccountPage(driver);
         MyWishListPage myWishListPage = new MyWishListPage(driver);
-        String wishToDelete = "First add a wish";
 
         homePage.clickLogIn();
         loginPage.loginForm(signInEmail, signInPassword);
         myAccountPage.clickMyWishList();
-        if (!myWishListPage.checkExistence(wishToDelete)) {  // == false
-            myWishListPage.deleteWish(wishToDelete);
-            Assertions.assertThat(myWishListPage.checkExistence(wishToDelete))
-                    .as("Hij is weg")
+        if (!myWishListPage.checkExistence(wishUnderConstruction)) {
+            myWishListPage.deleteWish(wishUnderConstruction);
+            Assertions.assertThat(myWishListPage.checkExistence(wishUnderConstruction))
+                    .as("The wish '" + wishUnderConstruction + "' should have been deleted")
                     .isFalse();
         }
         else {
-            System.out.println("Niet te vinden");
+            System.out.println("The wish '" + wishUnderConstruction + "' is not in the list");
         }
     }
 }
