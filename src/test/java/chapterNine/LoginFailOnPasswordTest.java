@@ -6,20 +6,22 @@ import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.LoginPage;
 
-public class LoginTest extends TestShopScenario {
+public class LoginFailOnPasswordTest extends TestShopScenario {
 
     @Test
-    public void logIn() {
+    public void logInFailWrongPassWord() {
         String signInEmail = "gerrit@elsenaar.com";
-        String signInPassword = "1qazxsw2";
+        String signInPassword = "mn";
         HomePage homePage = new HomePage(driver);
         LoginPage loginPage = new LoginPage(driver);
 
         homePage.clickLogIn();
         loginPage.loginForm(signInEmail, signInPassword);
 
-        Assertions.assertThat(loginPage.loginSuccess())
-                .as("The header value differs:")
-                .contains("MY ACCOUNT");
+        System.out.println(loginPage.loginFailOnPassword());
+        Assertions.assertThat(loginPage.loginFailOnPassword())
+                .as("Fout password")
+                .isTrue();
     }
+
 }

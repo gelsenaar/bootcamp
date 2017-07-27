@@ -10,6 +10,8 @@ public class HomePage {
     private WebDriver driver;
 
     @FindBy(css = "li#header_link_contact > a")
+    private WebElement contactLink;
+    @FindBy(xpath = ".//*[@id='contact-link']/a")
     private WebElement contactUsLink;
     @FindBy(className = "login")
     private WebElement signInLink;
@@ -23,6 +25,9 @@ public class HomePage {
 
     public void clickContactUsLink() {
         contactUsLink.click();
+    }
+    public void clickContactLink() {
+        contactLink.click();
     }
 
     public void clickLogIn() {

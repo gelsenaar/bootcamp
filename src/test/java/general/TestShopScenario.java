@@ -1,8 +1,7 @@
 package general;
 
-import io.github.bonigarcia.wdm.ChromeDriverManager;
+import Browser.BrowserFactoryAdvanced;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
@@ -16,13 +15,21 @@ public class TestShopScenario {
 
     @BeforeMethod
     public void setUp() {
-        ChromeDriverManager.getInstance().setup();
-        driver = new ChromeDriver();
+//        ChromeDriverManager.getInstance().setup();
+//        driver = new ChromeDriver();
+//        Bovenstaande 2 regels worden vervangen door:
 
+        String browserName = "CHROME";
+
+        driver = BrowserFactoryAdvanced.getDriver(BrowserFactoryAdvanced.Browser.CHROME);
         driver.get("https://techblog.polteq.com/testshop/index.php");
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
 
+        /*if (browserName.toLowerCase().equals("firefox") || browserName.toLowerCase().equals("ie")) {
+            //driver.manage().window().maximize();
+        } else {
+            driver.manage().window().maximize();
+        }*/
+        driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
     }
 
     @AfterMethod
