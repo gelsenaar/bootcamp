@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93318834-a148-4d1c-8cfc-8058a1b47dba" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Browser/BrowserFactoryAdvanced.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Browser/BrowserFactoryBasic.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Browser/BrowserFactoryMedior.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/chapterNine/LoginFailOnEmailTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/chapterNine/LoginFailOnPasswordTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/examples/CallEnumExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/examples/EnumExample.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/chapterNine/LoginTest.java" afterPath="$PROJECT_DIR$/src/test/java/chapterNine/LoginSuccessTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp.iml" afterPath="$PROJECT_DIR$/bootcamp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pages/ContactUsPage.java" afterPath="$PROJECT_DIR$/src/main/java/pages/ContactUsPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pages/MyWishListPage.java" afterPath="$PROJECT_DIR$/src/main/java/pages/MyWishListPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/chapterNine/FillInContactUsFormTest.java" afterPath="$PROJECT_DIR$/src/test/java/chapterNine/FillInContactUsFormTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/chapterNine/WishListTest.java" afterPath="$PROJECT_DIR$/src/test/java/chapterNine/WishListTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/general/TestShopScenario.java" afterPath="$PROJECT_DIR$/src/test/java/general/TestShopScenario.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -757,7 +739,14 @@
       <option name="project" value="LOCAL" />
       <updated>1500988895120</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Commit eind dag 4">
+      <created>1501165955953</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1501165955953</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -848,7 +837,8 @@
     <MESSAGE value="simple space removal" />
     <MESSAGE value="removed linebreak (test)" />
     <MESSAGE value="Add to Cart toegevoegd&#10;Delete from Cart nog niet klaar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add to Cart toegevoegd&#10;Delete from Cart nog niet klaar" />
+    <MESSAGE value="Commit eind dag 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit eind dag 4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
