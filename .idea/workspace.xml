@@ -773,7 +773,14 @@
       <option name="project" value="LOCAL" />
       <updated>1501165975669</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Oplossing voor DeleteWish toegevoegd">
+      <created>1501225567214</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1501225567214</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -865,7 +872,8 @@
     <MESSAGE value="removed linebreak (test)" />
     <MESSAGE value="Add to Cart toegevoegd&#10;Delete from Cart nog niet klaar" />
     <MESSAGE value="Commit eind dag 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit eind dag 4" />
+    <MESSAGE value="Oplossing voor DeleteWish toegevoegd" />
+    <option name="LAST_COMMIT_MESSAGE" value="Oplossing voor DeleteWish toegevoegd" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
