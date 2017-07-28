@@ -19,16 +19,19 @@ public class TestShopScenario {
 //        driver = new ChromeDriver();
 //        Bovenstaande 2 regels worden vervangen door:
 
-        String browserName = "CHROME";
+        String browserName = "firefox";
 
-        driver = BrowserFactoryAdvanced.getDriver(BrowserFactoryAdvanced.Browser.CHROME);
+        //driver = BrowserFactoryAdvanced.getDriver(BrowserFactoryAdvanced.Browser.CHROME);
+        //Bovenstaande regel doet hetzelfde als onderstaande regel
+        driver = BrowserFactoryAdvanced.getDriver(BrowserFactoryAdvanced.Browser.valueOf(browserName.toUpperCase()));
         driver.get("https://techblog.polteq.com/testshop/index.php");
 
-        /*if (browserName.toLowerCase().equals("firefox") || browserName.toLowerCase().equals("ie")) {
+
+        if (browserName.toLowerCase().equals("firefox") || browserName.toLowerCase().equals("ie")) {
             //driver.manage().window().maximize();
         } else {
             driver.manage().window().maximize();
-        }*/
+        }
         driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
     }
 
