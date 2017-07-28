@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93318834-a148-4d1c-8cfc-8058a1b47dba" name="Default" comment="" />
+    <list default="true" id="93318834-a148-4d1c-8cfc-8058a1b47dba" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,31 +13,15 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeInsightWorkspaceSettings">
-    <option name="optimizeImportsOnTheFly" value="true" />
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="bootcamp" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/LoginPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="47" column="41" lean-forward="false" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
-              <folding>
-                <element signature="e#1396#1397#0" expanded="true" />
-                <element signature="e#1444#1445#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LoginSuccessTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/chapterNine/LoginSuccessTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="0">
               <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -47,7 +33,7 @@
       <file leaf-file-name="TestShopScenario.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/general/TestShopScenario.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="323">
               <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
               <folding />
             </state>
@@ -57,8 +43,8 @@
       <file leaf-file-name="WishListTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/chapterNine/WishListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="84" column="31" lean-forward="true" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
+            <state relative-caret-position="1377">
+              <caret line="84" column="31" lean-forward="false" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -67,8 +53,8 @@
       <file leaf-file-name="BrowserFactoryAdvanced.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Browser/BrowserFactoryAdvanced.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+            <state relative-caret-position="170">
+              <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,8 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/examples/FirstSeleniumTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/chapterSix/general.java" />
         <option value="$PROJECT_DIR$/src/test/java/general.java" />
         <option value="$PROJECT_DIR$/src/test/java/general/general.java" />
@@ -143,7 +127,6 @@
         <option value="$PROJECT_DIR$/src/test/java/examples/CallEnumExample.java" />
         <option value="$PROJECT_DIR$/src/test/java/examples/EnumExample.java" />
         <option value="$PROJECT_DIR$/src/test/java/Browser/BrowerEnum.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Browser/BrowserFactoryAdvanced.java" />
         <option value="$PROJECT_DIR$/src/test/java/chapterNine/LoginTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/chapterNine/LoginSuccessTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/ContactUsPage.java" />
@@ -152,6 +135,9 @@
         <option value="$PROJECT_DIR$/src/test/java/chapterNine/LoginFailOnEmailTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/general/TestShopScenario.java" />
         <option value="$PROJECT_DIR$/src/test/java/chapterNine/DeleteWishListTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Browser/BrowserFactoryAdvanced.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/api/SimpleTest.java" />
       </list>
     </option>
   </component>
@@ -163,10 +149,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="54" />
-    <option name="y" value="-8" />
-    <option name="width" value="1320" />
-    <option name="height" value="784" />
+    <option name="x" value="55" />
+    <option name="y" value="2" />
+    <option name="width" value="1316" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -186,7 +172,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -239,6 +225,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootcamp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootcamp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Browser" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -261,13 +255,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="settings.editor.selected.configurable" value="Console" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -291,11 +285,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LoginSuccessTest.logInSuccess">
-    <configuration name="CallEnumExample.printBootCampDay" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.SimpleTest.getHemWeer">
+    <configuration name="SimpleTest.getHamilton" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="examples.*" />
+          <option name="PATTERN" value="api.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -303,9 +297,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="examples" />
-      <option name="MAIN_CLASS_NAME" value="examples.CallEnumExample" />
-      <option name="METHOD_NAME" value="printBootCampDay" />
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.SimpleTest" />
+      <option name="METHOD_NAME" value="getHamilton" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -324,10 +318,10 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="FillInContactUsFormTest.fillInContactFormSuccess" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SimpleTest.getHemWeer" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="chapterNine.*" />
+          <option name="PATTERN" value="api.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -335,9 +329,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="chapterNine" />
-      <option name="MAIN_CLASS_NAME" value="chapterNine.FillInContactUsFormTest" />
-      <option name="METHOD_NAME" value="fillInContactFormSuccess" />
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.SimpleTest" />
+      <option name="METHOD_NAME" value="getHemWeer" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -356,10 +350,10 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="LoginFailOnEmailTest.logInFailWrongEmail" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SimpleTest.getKees" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="chapterNine.*" />
+          <option name="PATTERN" value="api.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -367,9 +361,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="chapterNine" />
-      <option name="MAIN_CLASS_NAME" value="chapterNine.LoginFailOnEmailTest" />
-      <option name="METHOD_NAME" value="logInFailWrongEmail" />
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.SimpleTest" />
+      <option name="METHOD_NAME" value="getKees" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -388,10 +382,10 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="LoginFailOnPasswordTest.logInFailWrongPassWord" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SimpleTest.getVersappenNogEens" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="chapterNine.*" />
+          <option name="PATTERN" value="api.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -399,9 +393,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="chapterNine" />
-      <option name="MAIN_CLASS_NAME" value="chapterNine.LoginFailOnPasswordTest" />
-      <option name="METHOD_NAME" value="logInFailWrongPassWord" />
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.SimpleTest" />
+      <option name="METHOD_NAME" value="getVersappenNogEens" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -420,10 +414,10 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="LoginSuccessTest.logInSuccess" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SimpleTest.testURLParam" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="chapterNine.*" />
+          <option name="PATTERN" value="api.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -431,9 +425,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="chapterNine" />
-      <option name="MAIN_CLASS_NAME" value="chapterNine.LoginSuccessTest" />
-      <option name="METHOD_NAME" value="logInSuccess" />
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.SimpleTest" />
+      <option name="METHOD_NAME" value="testURLParam" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -651,19 +645,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.FillInContactUsFormTest.fillInContactFormSuccess" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.LoginSuccessTest.logInSuccess" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.CallEnumExample.printBootCampDay" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.LoginFailOnEmailTest.logInFailWrongEmail" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.LoginFailOnPasswordTest.logInFailWrongPassWord" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.SimpleTest.getKees" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.SimpleTest.getHamilton" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.SimpleTest.testURLParam" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.SimpleTest.getVersappenNogEens" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.SimpleTest.getHemWeer" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.LoginSuccessTest.logInSuccess" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.LoginFailOnPasswordTest.logInFailWrongPassWord" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.LoginFailOnEmailTest.logInFailWrongEmail" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.CallEnumExample.printBootCampDay" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.FillInContactUsFormTest.fillInContactFormSuccess" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.SimpleTest.getHemWeer" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.SimpleTest.getVersappenNogEens" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.SimpleTest.testURLParam" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.SimpleTest.getHamilton" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.SimpleTest.getKees" />
       </list>
     </recent_temporary>
   </component>
@@ -776,39 +770,46 @@
       <option name="project" value="LOCAL" />
       <updated>1501225567214</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="API test">
+      <created>1501234434620</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1501234434620</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginFailOnEmailTest_logInFailWrongEmail - 2017.07.27 at 16h 12m 00s.xml">
-      <configuration name="LoginFailOnEmailTest.logInFailWrongEmail" configurationId="TestNG" />
+    <history-entry file="SimpleTest_doGet - 2017.07.28 at 10h 27m 00s.xml">
+      <configuration name="SimpleTest.doGet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginFailOnEmailTest_logInFailWrongEmail - 2017.07.27 at 16h 20m 45s.xml">
-      <configuration name="LoginFailOnEmailTest.logInFailWrongEmail" configurationId="TestNG" />
+    <history-entry file="SimpleTest_getHamilton - 2017.07.28 at 11h 05m 21s.xml">
+      <configuration name="SimpleTest.getHamilton" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginFailOnEmailTest_logInFailWrongEmail - 2017.07.27 at 16h 22m 11s.xml">
-      <configuration name="LoginFailOnEmailTest.logInFailWrongEmail" configurationId="TestNG" />
+    <history-entry file="SimpleTest_getHemWeer - 2017.07.28 at 11h 23m 50s.xml">
+      <configuration name="SimpleTest.getHemWeer" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginFailOnPasswordTest_logInFailWrongPassWord - 2017.07.27 at 16h 23m 50s.xml">
-      <configuration name="LoginFailOnPasswordTest.logInFailWrongPassWord" configurationId="TestNG" />
+    <history-entry file="SimpleTest_getHemWeer - 2017.07.28 at 11h 30m 50s.xml">
+      <configuration name="SimpleTest.getHemWeer" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginFailOnPasswordTest_logInFailWrongPassWord - 2017.07.27 at 16h 28m 45s.xml">
-      <configuration name="LoginFailOnPasswordTest.logInFailWrongPassWord" configurationId="TestNG" />
+    <history-entry file="SimpleTest_getKees - 2017.07.28 at 10h 44m 38s.xml">
+      <configuration name="SimpleTest.getKees" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginSuccessTest_logInSuccess - 2017.07.28 at 07h 56m 53s.xml">
-      <configuration name="LoginSuccessTest.logInSuccess" configurationId="TestNG" />
+    <history-entry file="SimpleTest_getVersappenNogEens - 2017.07.28 at 11h 22m 06s.xml">
+      <configuration name="SimpleTest.getVersappenNogEens" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginSuccessTest_logInSuccess - 2017.07.28 at 07h 58m 51s.xml">
-      <configuration name="LoginSuccessTest.logInSuccess" configurationId="TestNG" />
+    <history-entry file="SimpleTest_getVerstappen - 2017.07.28 at 10h 44m 03s.xml">
+      <configuration name="SimpleTest.getVerstappen" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginSuccessTest_logInSuccess - 2017.07.28 at 07h 59m 39s.xml">
-      <configuration name="LoginSuccessTest.logInSuccess" configurationId="TestNG" />
+    <history-entry file="SimpleTest_testURLParam - 2017.07.28 at 11h 14m 42s.xml">
+      <configuration name="SimpleTest.testURLParam" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTest_logIn - 2017.07.27 at 14h 17m 28s.xml">
-      <configuration name="LoginTest.logIn" configurationId="TestNG" />
+    <history-entry file="SimpleTest_testURLParam - 2017.07.28 at 11h 15m 44s.xml">
+      <configuration name="SimpleTest.testURLParam" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTest_logIn - 2017.07.27 at 15h 28m 49s.xml">
-      <configuration name="LoginTest.logIn" configurationId="TestNG" />
+    <history-entry file="SimpleTest_testURLParam - 2017.07.28 at 11h 17m 17s.xml">
+      <configuration name="SimpleTest.testURLParam" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -821,7 +822,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1320" height="784" extended-state="0" />
+    <frame x="55" y="2" width="1316" height="773" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -831,18 +833,19 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36512667" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37121212" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24923313" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935917" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -850,7 +853,6 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935917" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -868,7 +870,8 @@
     <MESSAGE value="Add to Cart toegevoegd&#10;Delete from Cart nog niet klaar" />
     <MESSAGE value="Commit eind dag 4" />
     <MESSAGE value="Oplossing voor DeleteWish toegevoegd" />
-    <option name="LAST_COMMIT_MESSAGE" value="Oplossing voor DeleteWish toegevoegd" />
+    <MESSAGE value="API test" />
+    <option name="LAST_COMMIT_MESSAGE" value="API test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -881,13 +884,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/examples/FirstSeleniumTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -1050,14 +1046,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="12" lean-forward="false" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Browser/BrowserFactoryBasic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
@@ -1123,11 +1111,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
+        <state relative-caret-position="680">
           <caret line="47" column="41" lean-forward="false" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
           <folding>
-            <element signature="e#1396#1397#0" expanded="true" />
-            <element signature="e#1444#1445#0" expanded="true" />
+            <element signature="e#1396#1397#0" expanded="false" />
+            <element signature="e#1444#1445#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1144,7 +1132,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/chapterNine/LoginSuccessTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="0">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1154,7 +1142,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/general/TestShopScenario.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="323">
           <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
           <folding />
         </state>
@@ -1165,23 +1153,41 @@
         <state relative-caret-position="-374">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/chapterNine/WishListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="84" column="31" lean-forward="true" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
+        <state relative-caret-position="1377">
+          <caret line="84" column="31" lean-forward="false" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="49" column="4" lean-forward="false" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/api/SimpleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Browser/BrowserFactoryAdvanced.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        <state relative-caret-position="170">
+          <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
