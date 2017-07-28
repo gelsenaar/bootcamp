@@ -18,14 +18,14 @@ public class FirstSeleniumTest {
         String mailAddress = "tester@test.com";
         String passWord = "1qazxsw2";
         String textToValidate;
-        String textContent = "personel";
+        String textContent = "personal";
 
         ChromeDriverManager.getInstance().setup();
         WebDriver driver = new ChromeDriver();
         driver.get("https://techblog.polteq.com/testshop/index.php");
         driver.manage().window().maximize();
 
-        SoftAssertions softly = new SoftAssertions();
+        //SoftAssertions softly = new SoftAssertions();
 
         driver.findElement(By.className("login")).click();
 
